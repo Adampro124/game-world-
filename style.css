@@ -1,0 +1,39 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  height: 100vh;
+}
+.sidebar {
+  background: #222;
+  color: white;
+  width: 200px;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.sidebar a {
+  display: block;
+  margin: 1rem 0;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+.sidebar a:hover {
+  text-decoration: underline;
+}
+.main {
+  flex: 1;
+  padding: 2rem;
+}
+body.meisjes {
+  background: #ffe6f0;
+  background-image: radial-gradient(#fff 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+body.jongens {
+  background: #e0f0ff;
+  background-image: radial-gradient(#fff 1px, transparent 1px);
+  background-size: 20px 20px;
+}
